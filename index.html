@@ -4,10 +4,10 @@
     <head>
         <meta charset="utf-8">
 
-        <title>${Talk Tile Here}</title>
+        <title>Load testing evolution</title>
 
-        <meta name="description" content="${TalkDescription}">
-        <meta name="author" content="${TalkAuthor}">
+        <meta name="description" content="Enterprise applications stress/load testing">
+        <meta name="author" content="Denis V. Kirpichenkov">
 
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
@@ -74,30 +74,156 @@
     <body>
 
         <div class="reveal">
-<!--
-        <div class="footer">
-            ${FooterHere}
-        </div>
--->
             <!-- Any section element inside of this container is displayed as a slide -->
             <div class="slides">
                 <section>
-                    <h1>${SlideTitle}</h1>
-                    <p>
-                        ${SlideContent}
-                    </p>
+                    <h1>Load testing <br/> evolution</h1>
+                    <img style="height:400px" src="img/evolution.jpg"/>
+                </section>
+                
+                <section>
+                    <h1>Load Testing</h1>
+                    <ul>
+                        <li>пределы возможностей</li>
+                        <li>фиксирование показателей</li>
+                        <li>прогнозирование</li>
+                    </ul>
                 </section>
 
                 <section>
-                        <h1>${SlideWithCodeTitle}</h1>
-                        <pre style="width:auto;"><code data-trim class="java">
-class HelloWorld {
-    public static void main(String[] args) {
-        System.out.println("Hello World!");
-    }
-}
-                        </code></pre>
+                    <h1>Micro, Meso, Macro</h1>
+                    <h2>Load testing / benchmarking</h2>
                 </section>
+
+                <section>
+                    <h1>Эпоха Палеолита</h1>
+                    <h2>Первые внедрения</h2>
+                    <ul>
+                        <li>Число пользоватлей - неизвестно</li>
+                        <li>Сложность процессов - неизвестна</li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h1>Зачем нагрузочное тестирование</h1>
+                    <ul>
+                        <li>Требований к оборудованию</li>
+                        <li>Что будет под нагрузкой</li>
+                        <li>Один коммит и все пропало</li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h1>Эпоха Палеолита</h1>
+                    <ul>
+                        <li>придумать сценарий</li>
+                        <li>отпрофилировать</li>
+                        <li>зафиксировать тестом</li>
+                    </ul>
+                </section>
+                
+                <section>
+                    <h1>Сценарий</h1>
+                    <table>
+                        <tr>
+                            <td>
+
+                            </td>
+                            <td>
+
+                            </td>
+                        </tr>
+                    </table>
+                </section>
+
+                <!--
+                    Из плюсов: были большие базы данных
+                -->
+
+                <section>
+                    <h1>Профилирование</h1>
+                </section>
+
+                <section>
+                    <h1>Тест</h1>
+                </section>
+
+                <section>
+                    <h1>Tools</h1>
+                    <ul>
+                        <li>JMeter</li>
+                        <li>Selenium</li>
+                        <li>Google spreadsheet</li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h1>Метрики</h1>
+                    <ul>
+                        <li>Число бизнес-действий</li>
+                        <li>Состояние сервера/БД</li>
+                        <li>Отклик UI</li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h1>Контроль показаний</h1>
+                    <p>Раз в сутки запуск нагрузочного тестирования</p>
+                </section>
+                
+                <section>
+                    <h1>Эпоха Палеолита</h1>
+                    <h2>Итоги</h2>
+                    <ul>
+
+                    </ul>
+                </section>
+
+                <section>
+                    <h1>N лет спустя</h1>
+                    <ul>
+                        <li>Внедрений стало больше</li>
+                        <li>Число пользователей выросло</li>
+                        <li>Появились сложные процессы</li>
+                        <li>Новые сценарии использования</li>
+                    </ul>
+                    <h3>Big bang!</h3>
+                </section>
+
+                <section>
+                    <h1>Что пошло не так</h1>
+                    <ul>
+                        <li>Контроль только бизнес-метрик</li>
+                        <li>Плохой сценарий</li>
+                        <li>Мало пользователей</li>
+                        <li>Простые процессы</li>
+                        <li>Использование малого набора RPC в тесте</li>
+                    </ul>
+                </section>
+                
+                <section>
+                    <h1>Медный век</h1>
+                    <!-- 
+                        Чинили проблемы конкретных клиентов
+                        записывая траффик и воспроизводя
+                        анализируя перцентили
+                        этого всего было мало и надо было что то еще
+                        DVIC-1000
+                        Проблемы инструментов и имитация действий пользователя. асинхронные запросы
+                    -->
+                </section>
+
+                <section>
+                    <h1>Бронзовый век</h1>
+                    <!--
+                        JSFlight
+                    -->
+                </section>
+
+                <section>
+                    <h1>Путь на верх</h1>
+                </section>
+
             </div>
         </div>
 
